@@ -34,6 +34,6 @@ Cıktı : tatil8.jpg
 Cıktı : tatil9.jpg
 
 
-Sitenin yapımında Chat gpt kullanılmıştır. Resimlerin Oluşturulmasında ise Microsoft Copilet Designer Kullanılmıştır
+Sitenin yapımında Chat gpt kullanılmıştır. Resimlerin Oluşturulmasında ise Microsoft Copilot Designer Kullanılmıştır
 
 
