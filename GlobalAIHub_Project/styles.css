@@ -1,0 +1,190 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+    color: #fff; /* Sitenin ismi beyaz olacak */
+    font-weight: bold; /* Sitenin ismi kalın olacak */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Header stilleri */
+header {
+    background-color: #000; /* Header arka plan rengi siyah olacak */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Logo boyutu küçültüldü */
+    height: auto;
+}
+
+
+.site-name h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center; /* Dikey hizalama */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Geçiş efekti */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Fare üzerine geldiğinde renk değişimi */
+}
+
+/* Ana içerik bölümü stilleri */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Fotoğraf galerisi stilleri */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.group {
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Group'ların genişliği 3 tanesi yan yana sığacak şekilde ayarlandı */
+}
+
+.image {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.image:hover img {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+/* İletişim formu stilleri */
+#bilgi-formu {
+    background-color: #ccc; /* Bize Ulaşın arka plan rengi gri olarak ayarlandı */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#bilgi-formu h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#bilgi-formu label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#bilgi-formu input[type="text"],
+#bilgi-formu input[type="email"],
+#bilgi-formu textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#bilgi-formu textarea {
+    resize: vertical;
+}
+
+#bilgi-formu input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#bilgi-formu input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer stilleri */
+footer {
+    background-color: #000; /* Footer arka plan rengi siyah olacak */
+    color: #fff; /* Footer yazı rengi beyaz olacak */
+    padding: 10px 20px;
+    text-align: center;
+}
