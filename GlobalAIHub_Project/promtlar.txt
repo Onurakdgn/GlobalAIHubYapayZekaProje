@@ -1,39 +1,35 @@
-Promtlar : https://chat.openai.com/share/9a876984-9466-469f-b021-3283e737f9a5
+Promtlar: https://chat.openai.com/share/9a876984-9466-469f-b021-3283e737f9a5
 
+Resimler için Promtlar:
 
-Resimler için Promtlar
+1. Bana güzel bir manzara resmini Bob Ross tarzında verebilir misin? 
+   Çıktı: Logo.jpg
 
-1. Bana güzel bir manzara resmini Bob ross tarzında verebilirmisin 
-cıktı : Logo.jpg 
+2. Promt: Bana İspanya'dan gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil1.jpg
 
-2.Promt : Bana İspanya'dan Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil1.jpg
+3. Promt: Bana Maldivler'den gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil2.jpg
 
-4.Promt : Bana Maldivler'den Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil2.jpg
+4. Promt: Bana Hawai'den gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil3.jpg
 
-5.Promt : Bana Hawai'den Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil3.jpg
+5. Promt: Bana Yunan Adaları'ndan gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil4.jpg
 
-6.Promt : Bana Yunan Adaların'dan Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil4.jpg
+6. Promt: Bana Tayland'dan gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil5.jpg
 
-7.Promt : Bana Tayland'dan Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil5.jpg
+7. Promt: Bana İtalya'dan gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil6.jpg
 
-8.Promt : Bana İtalya'dan Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil6.jpg
+8. Promt: Bana Bali Adaları'nda gezilebilecek bir yerin görselini oluşturabilir misin? 
+   Çıktı: tatil7.jpg
 
-9.Promt : Bana Bali Adaların 'da  Gezilebilecek bir yerin Görselini oluşturabilirmisin . 
-Cıktı : tatil7.jpg
+9. Promt: Bana Meksika'nın renkli kasabalarından bir görsel oluşturabilir misin? 
+   Çıktı: tatil8.jpg
 
-10.Promt : Bana Meksikanın renkli kasabalarının bir  Görselini oluşturabilirmisin . 
-Cıktı : tatil8.jpg
+10. Promt: Bana Seyşeller'in gizemli adalarından ve Hint Okyanusu'ndan bir görsel oluşturabilir misin? 
+    Çıktı: tatil9.jpg
 
-11.Promt : Bana Seyşeller gizemli adaların ve hint okyanusunun bir Görselini oluşturabilirmisin . 
-Cıktı : tatil9.jpg
-
-
-Sitenin yapımında Chat gpt kullanılmıştır. Resimlerin Oluşturulmasında ise Microsoft Copilot Designer Kullanılmıştır
-
-
+Sitenin yapımında ChatGPT kullanılmıştır. Resimlerin oluşturulmasında ise Microsoft Copilot Designer kullanılmıştır.
